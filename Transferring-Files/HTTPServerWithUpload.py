@@ -3,8 +3,8 @@
 """Simple HTTP Server With Upload Capabilities.
 
 Arguments: 
-python3 pythonuploader.py -p 80
-python3 pythonuploader.py --port 80
+python3 HTTPServerWithUpload.py -p 80
+python3 HTTPServerWithUpload.py --port 80
 
 """
 
