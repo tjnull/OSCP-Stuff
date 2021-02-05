@@ -66,8 +66,7 @@ class SimpleHTTPRequestHandler(http.server.BaseHTTPRequestHandler):
         else:
             f.write(b"<strong>Failed:</strong>")
         f.write(info.encode())
-        f.write(("<br><a href=\"%s\">back</a>" % self.headers['referer']).encode())
-        f.write(b"<hr><small>Powerd By: bones7456, check new version at ")
+        f.write(("<br><a href=\"%s\">back</a>" % self.headers['referer']).encode()
         f.write(b"<a href=\"https://github.com/tjnull">")
         f.write(b"here</a>.</small></body>\n</html>\n")
         length = f.tell()
