@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
  
-"""Simple HTTP Server With Upload.
+"""Simple HTTP Server With Upload Capabilities.
 
 Arguments: 
 python3 pythonuploader.py -p 80
