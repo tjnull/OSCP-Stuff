@@ -32,3 +32,4 @@ The script implements the following AD Attacks:
 - Implement a procedure where it can import vulnerable templates for AD CS
 - Test the script on other Server editions that are 2016 and up
 - Include a AD Attack that focuses on attacking MSSQL
+- 
